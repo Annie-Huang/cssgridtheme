@@ -138,3 +138,24 @@ p {
     text-decoration: none;
 }
 
+
+/* Media Queries */
+
+@media (min-width: 700px) {
+    .grid {
+        display: grid;
+
+        /* The below will give us 4 fractional columns, evenly divided from the current width. */
+        /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+        /* The below is the same as above */
+        /*grid-template-columns: 1fr repeat(2, 1fr) 1fr;*/
+
+        /* The below is to make the middle two columns bigger */
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    .content-wrap,
+    #section-b ul {
+        grid-column: 2/4; /* means it is going to span from line 2 (right line of column1) to line 4 (right line of column3) */
+    }
+}

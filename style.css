@@ -158,4 +158,9 @@ p {
     #section-b ul {
         grid-column: 2/4; /* means it is going to span from line 2 (right line of column1) to line 4 (right line of column3) */
     }
+
+    .box,
+    #main-footer div {
+        grid-column: span 2;
+    }
 }

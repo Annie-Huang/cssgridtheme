@@ -22,6 +22,8 @@ https://www.pexels.com/photo/access-adult-blur-business-261628/
 https://www.pexels.com/search/marketing/
 https://www.pexels.com/photo/business-charts-commerce-computer-265087/
 
+https://intellij-support.jetbrains.com/hc/en-us/community/posts/115000244064-Live-edit-doesn-t-work-Chrome-doesn-t-refresh
+
 ########################################################
 
 D:\react\cssgridtheme>git init
